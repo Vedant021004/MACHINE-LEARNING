@@ -14,7 +14,7 @@ print(df.info())
 
 print(df.describe())
 
-print(df[df.isnull()].sum())
+print(df[df.isnull().sum())]
 
 print(df.drop_duplicates(inplace=True))
 
